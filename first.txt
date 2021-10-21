@@ -18,3 +18,19 @@ git log
 git diff
   git diff --staged
     qで離脱
+
+除外ファイル設定ファイル
+.gitignore
+  #から始まる行はコメント
+  指定したファイルを除外
+  ルートディレクトリを指定
+    /root.html
+  ディレクトリ以下を除外
+    dir/
+
+  コミットしてしまったファイルを管理から外す
+    ファイルごと削除
+      git rm [ファイル名]
+      git rm -r [ディレクトリ]
+    ファイルは残す
+      git rm --cached [ファイル名]
