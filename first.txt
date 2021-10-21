@@ -10,3 +10,11 @@ git add .
 git commit
 git rm
 git status
+git log
+  git log --oneline
+  git log -p [ファイル名]
+    qで離脱
+  git log -n 数値
+git diff
+  git diff --staged
+    qで離脱
